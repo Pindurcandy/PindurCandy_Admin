@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PindurCandy_Admin", "PindurCandy_Admin\PindurCandy_Admin.csproj", "{AEBECCD0-9719-40AF-B22F-EB173D55369E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PindurCandy_Admin_Installer", "PindurCandy_Admin_Installer\PindurCandy_Admin_Installer.vdproj", "{6ADE58AC-138E-4977-A9CA-5A9A421C30AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEBECCD0-9719-40AF-B22F-EB173D55369E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBECCD0-9719-40AF-B22F-EB173D55369E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBECCD0-9719-40AF-B22F-EB173D55369E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBECCD0-9719-40AF-B22F-EB173D55369E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADE58AC-138E-4977-A9CA-5A9A421C30AF}.Debug|Any CPU.ActiveCfg = Debug
+		{6ADE58AC-138E-4977-A9CA-5A9A421C30AF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA83C1F-6E6F-4092-86D3-D11581ED6A3C}
+	EndGlobalSection
+EndGlobal
