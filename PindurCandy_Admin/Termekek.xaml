@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/bg.jpg"></ImageBrush>
         </Grid.Background>
-        <DataGrid Name="termekek_adatai" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" Margin="62,24,62,173" SelectionChanged="Termekek_adatai_Changed">
+        <DataGrid Name="termekek_adatai"  Height="240" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" Margin="62,24,62,173" SelectionChanged="Termekek_adatai_Changed">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Width="30" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="TermekNev" Width="120" Binding="{Binding TermekNev}"/>
@@ -29,7 +29,7 @@
         <Label Content="Leírás:" HorizontalAlignment="Left" Margin="32,326,0,0" VerticalAlignment="Top" Cursor="AppStarting" FontSize="14" Foreground="#FF050508" FontStyle="Italic"/>
         <Label Content="Aktív:" HorizontalAlignment="Left" Margin="277,328,0,0" VerticalAlignment="Top" Cursor="AppStarting" FontSize="14" Foreground="#FF050508" FontStyle="Italic"/>
         <ComboBox Name="cmb_Aktiv" HorizontalAlignment="Left" Margin="326,332,0,0" VerticalAlignment="Top" FontSize="14" Width="35" />
-        <Button Name="btn_Tarolas" Content="Tárolás" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="211,393,0,0" Click="btn_Tarolas_Click" FontWeight="Bold" >
+        <Button Name="btn_Tarolas" Content="Tárolás" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,382,0,0" Click="btn_Tarolas_Click" FontWeight="Bold" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF07C3B4"/>
@@ -38,7 +38,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="btn_Modositas" Content="Módosítás" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,375,0,0" Click="btn_Modositas_Click" FontWeight="Bold" >
+        <Button Name="btn_Modositas" Content="Módosítás" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="372,382,0,0" Click="btn_Modositas_Click" FontWeight="Bold" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF5F902"/>
@@ -47,7 +47,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Name="btn_Torles" Content="Törlés" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="539,393,0,0" Click="btn_Torles_Click" FontWeight="Bold" >
+        <Button Name="btn_Torles" Content="Törlés" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="558,382,0,0" Click="btn_Torles_Click" FontWeight="Bold" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFFB04EF"/>
@@ -60,6 +60,15 @@
         <TextBox x:Name="txb_Link" HorizontalAlignment="Left" Margin="525,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Height="22"/>
         <TextBox x:Name="txb_Leiras" HorizontalAlignment="Left" Margin="89,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Height="40"/>
         <TextBox x:Name="txb_kep" HorizontalAlignment="Left" Margin="657,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="44"/>
+        <Button x:Name="btn_vissza" Content="Vissza" HorizontalAlignment="Left" Margin="28,382,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Click="btn_vissza_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD75B5B"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FFEBADAD" Offset="0.326"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
 
     </Grid>

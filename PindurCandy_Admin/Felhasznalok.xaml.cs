@@ -235,5 +235,12 @@ namespace PindurCandy_Admin
                 }
             }
         }
+
+        private void btn_vissza_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            this.Close();
+            main.Show();
+        }
     }
 }
